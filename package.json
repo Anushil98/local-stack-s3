@@ -1,0 +1,11 @@
+{
+  "name": "local-stack-s3",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "bun run --filter ./apps/* dev"
+  }
+}
